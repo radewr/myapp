@@ -1,0 +1,14 @@
+.hexmap-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hex {
+  cursor: pointer;
+  transition: fill 0.2s ease;
+}
+
+.hex:hover {
+  opacity: 0.8;
+}
